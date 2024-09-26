@@ -1,0 +1,14 @@
+.product-quantity {
+  font-size: 1.5rem;
+  height: 100%;
+  align-items: center;
+}
+.shopping-cart-btn {
+  cursor: pointer;
+}
+.nav-bar {
+  background-color: #e1f0ff;
+  height: 36px;
+  position: fixed;
+  top: 0;
+}
