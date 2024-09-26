@@ -18,6 +18,7 @@ import { setTodos, setError } from "../slices/todoSlice";
 
 // export default getTodos;
 //Thunk Middleware
+
 export const getTodos = createAsyncThunk("fetchTodos", async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/todos");
 

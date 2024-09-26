@@ -15,7 +15,6 @@ Modal.propTypes = {
 
 export default function Modal({ showModal, onClick }) {
   const { buyProducts } = useSelector((state) => state.productList);
-  console.log("🚀 ~ Modal ~ buyProducts:", buyProducts);
   const dispatch = useDispatch();
 
   const handleIncrement = (productId) => {
